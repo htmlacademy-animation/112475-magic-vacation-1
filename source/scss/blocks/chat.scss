@@ -186,3 +186,8 @@
 .chat__footer {
   margin-top: auto;
 }
+
+.chat__field-wrapper {
+  flex-grow: 1;
+  overflow: hidden;
+}
