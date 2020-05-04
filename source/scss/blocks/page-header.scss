@@ -265,7 +265,7 @@
       transition-property: opacity, width, background-color;
       transition-duration: 0.3s;
       transition-timing-function: $trs-timing-90;
-      transition-delay: 0s, 0.6s, 0s;
+      transition-delay: 0s, 0s, 0s;
 
       @media (min-width: $stop-scaling) {
         left: -5px;
@@ -333,6 +333,7 @@ body.js-loaded {
         &::after {
           left: 0;
           width: 100%;
+          transition-delay: 0s, 0.6s, 0s;
         }
       }
     }
