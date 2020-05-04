@@ -10117,17 +10117,17 @@ module.exports = code;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (() => {
-    const BODY = document.body;
+  const BODY = document.body;
 
-    let onPageLoad = function () {
-      BODY.classList.add('js-loaded');
-    }
+  let onPageLoad = function () {
+    BODY.classList.add(`js-loaded`);
+  };
 
-    if (document.readyState === 'complete') {
-      onPageLoad();
-    } else {
-      window.addEventListener('load', onPageLoad);
-    }
+  if (document.readyState === `complete`) {
+    onPageLoad();
+  } else {
+    window.addEventListener(`load`, onPageLoad);
+  }
 });
 
 
