@@ -103,8 +103,9 @@
   line-height: 1.27;
   opacity: 0;
   animation-name: fadeInTop;
-  animation-duration: 0.6s;
+  animation-duration: $trs-time;
   animation-timing-function: linear;
+  animation-delay: 1.2s;
   animation-fill-mode: backwards;
 
   @media (min-width: $stop-scaling) {
